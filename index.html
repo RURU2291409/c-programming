@@ -1,20 +1,31 @@
-<!-- コメントアウトの仕方 -->
 <!DOCTYPE html>
-<!-- HTML5の宣言 -->
 <html lang="ja">
-    <!-- 言語を日本語に設定 -->
     <head>
-        <!-- 文章以外の情報を記入 -->
         <meta charset="UTF-8">
-        <!-- 文字コードをUTF-8に設定 -->
-        <title>HTMLの基本</title>
-        <!-- タイトルを設定 -->
-        <link rel="stylesheet"href="style.css">
-        <!-- 外部CSSファイルのリンク -->
+        <title>自己紹介</title>
+        <link rel="stylesheet"href="style.css"/>
+    <style>
+      .my-table th,
+      .my-table td {
+      border: 1px solid #999;
+    }
+    </style>
     </head>
-    <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYwI7yNMqz877QIG-1WqJS52DzOWv-NFmUOQ&s">
-        <!-- 文章にかかわる内容の記述 -->
-        <h1>HTMLのテンプレート</h1>
+    <body background="https://twpf.jp/images/default-ogp.png">
+        <h1 align="center">プロフィール</h1>
+        <h2>概要</h2>
+        <div style="text-align: left; padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px; background-color: #ffffff;">
+        
+        <p>RURU<br><br>
+           メタナイト、テリー使い。どちらも絶賛練習中。<br>
+           じつはかなりの大食らいで、麺類が一番の好物らしい。</p><img src="https://cdn.mainichi.jp/vol1/2023/10/23/20231023k0000m040247000p/8.jpg?3"  style="display:block; margin:auto;" width="5%">
+        </div>
+        <table class="my-table">
+            <tr><th>P.N</th><th>RURU</th><th></th></tr>
+            <tr><th>性別</th><th>男</th><th>あ</th></tr>
+            <tr><th>名前</th><th>あ</th><th>あ</th></tr>
+            <tr><th>趣味</th><th>ゲーム</th><th>あ</th></tr>
+        </table>
         <p>HTMLは、大体このような構成で記述されることが多いですよ。</p>
     </body>
 </html>
